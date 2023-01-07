@@ -1,0 +1,289 @@
+/*Compoents*/
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-shape {
+    -o-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    padding: 4px 10px;
+}
+/*Create Boxes*/
+.d-flex {
+    display: flex;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.end-flex {
+    justify-content: flex-end;
+}
+.align-center {
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+.d-block {
+    display: block;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+/*Create Padding + Margin*/
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-15 {
+    margin: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-0 {
+    margin-left: 0;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.mr-0 {
+    margin-right: 0;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+/*Colors*/
+.c-black {
+    color: #000000;
+}
+.c-white {
+    color: white;
+}
+.c-navy {
+    color: #150050;
+}
+.c-purple {
+    color: #5800FF;
+}
+.c-purple-alt {
+    color: #52057B;
+}
+.c-sky {
+    color: #82C3EC;
+}
+.c-sky-alt {
+    color: #009EFF;
+}
+.c-pink {
+    color: #E900FF;
+}
+.c-yellow {
+    color: #FFC600;
+}
+.c-yellow-alt {
+    color: #daaa00;
+}
+.bg-black {
+    background-color: #000000;
+}
+.bg-navy {
+    background-color: #150050;
+}
+.bg-sky {
+    background-color: #82C3EC;
+}
+.bg-purple {
+    background-color: #5800FF;
+}
+.bg-purple-alt {
+    background-color: #52057B;
+}
+.bg-pink {
+    background-color: #E900FF;
+}
+.bg-yellow {
+    background-color: #FFC600;
+}
+.bg-red {
+    background-color: #ff0000;
+}
+/*Postion*/
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/*border + border radius*/
+.rad-6 {
+    -o-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+}
+.rad-10 {
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+.rad-half {
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.border-1 {
+    border: 1px solid #E900FF;
+}
+.border-none {
+    border: none;
+}
+.bb {
+    border-bottom: 1px solid var(--pink-color);
+}
+.b-top {
+    border-top: 1px solid var(--pink-color);
+}
+.box-shadow {
+    box-shadow: 0 0 10px hsl(317 100% 54%);
+}
+/*Fonts*/
+.txt-c {
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+/*width*/
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-100 {
+    width: 100px;
+}
+.h-100 {
+    width: 100px;
+}
+/*Over Flow*/
+.overflow-h {
+    overflow: hidden;
+}
