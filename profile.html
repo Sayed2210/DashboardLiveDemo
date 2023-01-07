@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--add normaliz css file to reset all elements-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Font awesome library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--My Framework-->
+    <link rel="stylesheet" href="css/framework.css">
+    <!--main css file-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,300;1,800&display=swap" rel="stylesheet">   
+    <title>profile</title>
+</head>
+<body>
+    <!--main container-->
+    <div class="page d-flex">
+        <!--Create Side Bar-->
+        <div class="side-bar bg-black p-relative p-20">
+            <h3 class="p-relative txt-c mt-0 c-purple">Elsayed</h3>
+            <ul>
+                <li><a class="d-flex align-center fs-14 rad-6 p-10" href="index.html">
+                    <i class="fa-solid fa-chart-simple fa-fw c-pink"></i>
+                    <span class="c-purple">Dashborad</span>
+                </a></li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                      <i class="fa-solid fa-gear fa-fw c-pink"></i>
+                      <span class="c-purple fs-14">Settings</span>
+                    </a>
+                </li>
+                  <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                      <i class="fa-regular fa-user fa-fw c-pink"></i>
+                      <span class="c-purple">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                      <i class="fa-solid fa-diagram-project fa-fw c-pink"></i>
+                      <span class="c-purple">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                      <i class="fa-solid fa-graduation-cap fa-fw c-pink"></i>
+                      <span class="c-purple">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                      <i class="fa-regular fa-circle-user fa-fw c-pink"></i>
+                      <span class="c-purple">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                      <i class="fa-regular fa-file fa-fw c-pink"></i>
+                      <span class="c-purple">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                      <i class="fa-regular fa-credit-card fa-fw c-pink"></i>
+                      <span class="c-purple">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Create content-->
+        <div class="content w-full c-navy">
+            <!--Create Header-->
+            <div class="head bg-black p-15 between-flex overflow-h box-shadow">
+                <div class="search p-relative">
+                    <input class="p-10 rad-10" type="search" placeholder="Enter A keyWord">
+                </div>
+                <div class="icons d-flex align-center">
+                    <i class="fa-regular fa-bell fa-lg c-pink p-relative"></i>
+                    <img src="/img/avatar.png" alt="">
+                </div>
+            </div>
+            <h1 class="p-relative c-pink">Profile</h1>
+            <!--Create content-->
+            <div class="profile-page m-20">
+                <!--create Overview widget-->
+               <div class="overview bg-navy p-20 rad-10 mb-20 d-flex align-center">
+                <div class="avatar-box txt-c p-20">
+                    <img src="/img/avatar.png" class="rad-half">
+                    <h3 class="c-pink">Elsayed</h3>
+                    <p class="c-purple mb-15">Level 99</p>
+                    <div class="level bg-purple p-relative rad-6">
+                        <span class="p-absolute rad-6 bg-pink" style="width: 70%"></span>
+                    </div>
+                    <div class="rating mb-10 mt-10">
+                        <i class="fa-solid fa-star c-pink"></i>
+                        <i class="fa-solid fa-star c-pink"></i>
+                        <i class="fa-solid fa-star c-pink"></i>
+                        <i class="fa-solid fa-star c-pink"></i>
+                        <i class="fa-solid fa-star c-pink"></i>
+                    </div>
+                    <p class="c-purple">500 Rating</p>
+                </div>
+                <div class="info-box w-full p-10">
+                    <div class="box d-flex align-center p-10">
+                        <h4 class="c-pink w-full fs-16 mb-10">General Information</h4>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Full Name: </span>
+                            <span>Elsayed Hassan</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Country: </span>
+                            <span>Egypt</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Gender: </span>
+                            <span>Male</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>    
+                    </div>
+                    <div class="box d-flex align-center p-10">
+                        <h4 class="c-pink w-full fs-16 mb-10">Personal Information</h4>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Email: </span>
+                            <span>eh600039@gmail.com</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Date Of Birth: </span>
+                            <span>16/11/1999</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Phone: </span>
+                            <span>01013453391</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>                        
+                    </div>
+                    <div class="box d-flex align-center p-10">
+                        <h4 class="c-pink w-full fs-16 mb-10">Job Information</h4>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Title: </span>
+                            <span>front-end developer</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Experience: </span>
+                            <span>+2 Years</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Programming Language: </span>
+                            <span>HTML,CSS,JS</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>    
+                    </div>
+                    <div class="box d-flex align-center p-10">
+                        <h4 class="c-pink w-full fs-16 mb-10">Billing Information</h4>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Payment Method: </span>
+                            <span>PayPal</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Subscription: </span>
+                            <span>Monthly</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <span class="c-purple-alt">Email: </span>
+                            <span>eh600039@gmail.com</span>
+                        </div>
+                        <div class="fs-14 c-purple">
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <!--create other data section--> 
+            <div class="other-data d-flex gap-20">
+                <div class="skills bg-navy p-20 rad-10 mt-20">
+                    <h2 class="c-pink mb-10">Skills</h2>
+                    <p class="c-purple fs-16 mb-20">Complete Skills List</p>
+                    <ul>
+                        <li class="p-20 mb-15 bb"><span class="c-pink btn-shape bg-purple mr-5">HTML</span><span class="c-pink btn-shape bg-purple mr-5">Pugjs</span><span class="c-pink btn-shape bg-purple mr-5">HAML</span></li>
+                        <li class="p-20 mb-15 bb"><span class="c-pink btn-shape bg-purple mr-5">CSS</span><span class="c-pink btn-shape bg-purple mr-5">SASS</span><span class="c-pink btn-shape bg-purple mr-5">Stylus</span></li>
+                        <li class="p-20 mb-15 bb"><span class="c-pink btn-shape bg-purple mr-5">JavaScript</span><span class="c-pink btn-shape bg-purple mr-5">TypeScript</span></li>
+                        <li class="p-20 mb-15 bb"><span class="c-pink btn-shape bg-purple mr-5">Vuejs</span><span class="c-pink btn-shape bg-purple mr-5">Reactjs</span></li>
+                        <li class="p-20 mb-15 bb"><span class="c-pink btn-shape bg-purple mr-5">Jest</span><span class="c-pink btn-shape bg-purple mr-5">Jasmine</span></li>
+                        <li class="p-20 mb-15 bb"><span class="c-pink btn-shape bg-purple mr-5">PHP</span><span class="c-pink btn-shape bg-purple mr-5">Laravel</span></li>
+                        <li class="p-20"><span class="c-pink btn-shape bg-purple mr-5">Python</span><span class="c-pink btn-shape bg-purple mr-5">Django</span></li>    
+                    </ul>
+                </div>
+                <div class="activities bg-navy p-20 rad-10 mt-20">
+                    <h2 class="c-pink mb-10">Latest Activities</h2>
+                    <p class="c-purple fs-16 mb-20">Latest Activities Done By The User</p>
+                    <div class="activity d-flex align-center mb-15 bb p-20 txt-c-mobile">
+                        <img src="/img/activity-01.png" class="mr-10">
+                        <div class="info">
+                            <span class="d-block c-pink mb-5">Store</span>
+                            <span class="c-purple">Bought The Mastering Python Course</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block c-pink mb-5">18:43</span>
+                            <span class="c-purple">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="activity d-flex align-center mb-15 bb p-20 txt-c-mobile">
+                        <img src="/img/activity-02.png" class="mr-10">
+                        <div class="info">
+                            <span class="d-block c-pink mb-5">Store</span>
+                            <span class="c-purple">Bought The Mastering Python Course</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block c-pink mb-5">16:30</span>
+                            <span class="c-purple">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="activity d-flex align-center mb-15 bb p-20 txt-c-mobile">
+                        <img src="/img/activity-03.png" class="mr-10">
+                        <div class="info">
+                            <span class="d-block c-pink mb-5">Store</span>
+                            <span class="c-purple">Bought The Mastering Python Course</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block c-pink mb-5">10:43</span>
+                            <span class="c-purple">Today</span>
+                        </div>
+                    </div>
+                    <div class="activity d-flex align-center mb-15 bb p-20 txt-c-mobile">
+                        <img src="/img/activity-01.png" class="mr-10">
+                        <div class="info">
+                            <span class="d-block c-pink mb-5">Store</span>
+                            <span class="c-purple">Bought Clean Code Book</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block c-pink mb-5">12:00</span>
+                            <span class="c-purple">Yesterday</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>           
+        </div>    
+</body>            
